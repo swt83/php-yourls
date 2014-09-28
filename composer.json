@@ -1,7 +1,7 @@
 {
-    "name": "vendor/package",
-    "description": "",
-    "homepage": "",
+    "name": "travis/yourls",
+    "description": "A PHP package for working w/ the YOURLS API.",
+    "homepage": "https://github.com/swt83/php-yourls",
     "license": "MIT",
     "authors": [
         {
@@ -12,19 +12,16 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": ""
+            "url": "https://github.com/swt83/php-ex.git"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.*"
+        "travis/ex": "*"
     },
     "autoload": {
-        "classmap": [
-            "src/commands"
-        ],
         "psr-0": {
-            "Vendor\\": "src/"
+            "Travis\\": "src/models/"
         }
     },
     "minimum-stability": "dev"
