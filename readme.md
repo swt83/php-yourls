@@ -23,4 +23,4 @@ For details on what methods are avialable, check the [API](http://yourls.org/#AP
 
 ## Notes
 
-When passing the endpoing, you don't need to include the ``yourls-api.php`` in the API URL.  Simply providing the domain where your installation of YOURLS lives will suffice.
+When passing the endpoint, you don't need to include the ``yourls-api.php`` portion of the API URL.  Simply provide the domain where your installation of YOURLS lives, such as ``http://myyours.com``.
