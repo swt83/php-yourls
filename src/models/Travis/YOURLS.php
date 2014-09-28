@@ -66,10 +66,7 @@ class YOURLS
             curl_close($ch);
 
             // decode
-            $result = json_decode($response);
-
-            // return
-            return ex($result, 'shorturl');
+            return json_decode($response);
         }
     }
 }
